@@ -18,9 +18,13 @@ sudo systemctl restart redis.service
 #Centos 7
 
 sudo yum install epel-release
+
 sudo yum update
+
 sudo yum install redis
+
 sudo systemctl start redis
+
 sudo systemctl enable redis
 
 #cek redis sudah berjalan atau tidak
